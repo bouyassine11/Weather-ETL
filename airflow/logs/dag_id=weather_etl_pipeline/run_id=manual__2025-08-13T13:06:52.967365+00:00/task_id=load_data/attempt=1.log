@@ -1,0 +1,31 @@
+[2025-08-13T13:06:58.286+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_etl_pipeline.load_data manual__2025-08-13T13:06:52.967365+00:00 [queued]>
+[2025-08-13T13:06:58.302+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_etl_pipeline.load_data manual__2025-08-13T13:06:52.967365+00:00 [queued]>
+[2025-08-13T13:06:58.302+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-08-13T13:06:58.323+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): load_data> on 2025-08-13 13:06:52.967365+00:00
+[2025-08-13T13:06:58.330+0000] {standard_task_runner.py:57} INFO - Started process 187 to run task
+[2025-08-13T13:06:58.335+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'weather_etl_pipeline', 'load_data', 'manual__2025-08-13T13:06:52.967365+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/weather_etl.py', '--cfg-path', '/tmp/tmp24wnwu8d']
+[2025-08-13T13:06:58.340+0000] {standard_task_runner.py:85} INFO - Job 54: Subtask load_data
+[2025-08-13T13:06:58.367+0000] {logging_mixin.py:151} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:193 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-08-13T13:06:58.415+0000] {task_command.py:416} INFO - Running <TaskInstance: weather_etl_pipeline.load_data manual__2025-08-13T13:06:52.967365+00:00 [running]> on host 5981a842327b
+[2025-08-13T13:06:58.522+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='weather_etl_pipeline' AIRFLOW_CTX_TASK_ID='load_data' AIRFLOW_CTX_EXECUTION_DATE='2025-08-13T13:06:52.967365+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-13T13:06:52.967365+00:00'
+[2025-08-13T13:06:58.536+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-08-13T13:06:58.537+0000] {base.py:73} INFO - Using connection ID 'postgres_weather' for task execution.
+[2025-08-13T13:06:58.547+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/weather_etl.py", line 44, in load_data_to_postgres
+    cursor.execute("""
+psycopg2.errors.UndefinedTable: relation "weather_data" does not exist
+LINE 2:             INSERT INTO weather_data 
+                                ^
+
+[2025-08-13T13:06:58.570+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=weather_etl_pipeline, task_id=load_data, execution_date=20250813T130652, start_date=20250813T130658, end_date=20250813T130658
+[2025-08-13T13:06:58.610+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 54 for task load_data (relation "weather_data" does not exist
+LINE 2:             INSERT INTO weather_data 
+                                ^
+; 187)
+[2025-08-13T13:06:58.639+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-08-13T13:06:58.666+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

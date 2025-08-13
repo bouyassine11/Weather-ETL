@@ -1,0 +1,151 @@
+City,Date,Temperature,Humidity,WindSpeed,Condition
+Paris,2023-11-15,12.5,78,15.2,Cloudy
+London,2023-11-15,10.8,82,12.7,Rainy
+Tokyo,2023-11-15,18.3,65,9.4,Sunny
+New York,2023-11-15,14.2,71,18.3,Partly Cloudy
+Sydney,2023-11-15,22.8,58,11.6,Sunny
+Berlin,2023-11-15,9.7,85,13.9,Overcast
+Moscow,2023-11-15,3.4,89,21.7,Snow
+Dubai,2023-11-15,28.6,45,8.2,Clear
+Mumbai,2023-11-15,26.9,72,6.8,Humid
+Beijing,2023-11-15,8.1,76,14.5,Smoggy
+Paris,2023-11-16,13.8,75,12.4,Partly Cloudy
+London,2023-11-16,11.2,79,14.1,Overcast
+Tokyo,2023-11-16,19.1,62,8.7,Clear
+New York,2023-11-16,12.9,68,16.8,Rainy
+Sydney,2023-11-16,24.3,55,13.2,Sunny
+Berlin,2023-11-16,8.9,88,15.6,Drizzle
+Moscow,2023-11-16,2.8,92,19.4,Snow
+Dubai,2023-11-16,29.4,42,7.9,Sunny
+Mumbai,2023-11-16,27.8,75,5.9,Monsoon
+Beijing,2023-11-16,9.3,73,12.8,Hazy
+Paris,2023-11-17,15.1,72,10.8,Sunny
+London,2023-11-17,13.4,76,11.3,Cloudy
+Tokyo,2023-11-17,20.5,59,9.8,Partly Cloudy
+New York,2023-11-17,16.7,65,15.2,Clear
+Sydney,2023-11-17,21.9,61,14.7,Overcast
+Berlin,2023-11-17,11.2,81,12.1,Foggy
+Moscow,2023-11-17,4.6,86,16.9,Overcast
+Dubai,2023-11-17,27.8,48,9.6,Clear
+Mumbai,2023-11-17,25.4,78,7.3,Humid
+Beijing,2023-11-17,7.9,79,13.4,Cloudy
+Paris,2023-11-18,11.9,81,16.7,Rainy
+London,2023-11-18,9.6,86,18.9,Storm
+Tokyo,2023-11-18,17.2,68,11.5,Rainy
+New York,2023-11-18,13.8,73,22.4,Windy
+Sydney,2023-11-18,23.7,53,10.9,Sunny
+Berlin,2023-11-18,7.3,91,20.3,Heavy Rain
+Moscow,2023-11-18,1.9,94,25.8,Blizzard
+Dubai,2023-11-18,30.1,39,6.4,Hot
+Mumbai,2023-11-18,28.3,81,4.7,Thunderstorm
+Beijing,2023-11-18,6.4,82,17.6,Rainy
+Paris,2023-11-19,14.6,77,13.2,Overcast
+London,2023-11-19,12.1,83,12.8,Drizzle
+Tokyo,2023-11-19,18.8,64,8.9,Clear
+New York,2023-11-19,15.3,69,14.7,Partly Cloudy
+Sydney,2023-11-19,25.1,57,12.4,Sunny
+Berlin,2023-11-19,10.4,84,14.9,Cloudy
+Moscow,2023-11-19,3.7,87,18.2,Snow
+Dubai,2023-11-19,28.9,44,8.7,Sunny
+Mumbai,2023-11-19,26.7,74,6.1,Humid
+Beijing,2023-11-19,8.8,77,15.3,Hazy
+Barcelona,2023-11-15,16.4,69,11.8,Sunny
+Rome,2023-11-15,19.2,63,9.7,Clear
+Amsterdam,2023-11-15,11.7,80,14.6,Rainy
+Vienna,2023-11-15,8.9,85,16.4,Overcast
+Stockholm,2023-11-15,5.2,91,19.7,Snow
+Cairo,2023-11-15,23.8,52,7.3,Dusty
+Bangkok,2023-11-15,29.7,78,4.8,Tropical
+Singapore,2023-11-15,31.2,84,3.9,Humid
+Seoul,2023-11-15,12.6,71,13.5,Cloudy
+Osaka,2023-11-15,17.9,66,10.2,Partly Cloudy
+Barcelona,2023-11-16,17.8,66,10.4,Clear
+Rome,2023-11-16,20.1,59,8.9,Sunny
+Amsterdam,2023-11-16,10.3,83,17.2,Storm
+Vienna,2023-11-16,7.4,89,18.8,Heavy Rain
+Stockholm,2023-11-16,4.1,94,22.3,Blizzard
+Cairo,2023-11-16,24.9,48,6.8,Sandy
+Bangkok,2023-11-16,30.4,81,3.2,Monsoon
+Singapore,2023-11-16,32.1,87,2.7,Thunderstorm
+Seoul,2023-11-16,11.9,74,15.8,Overcast
+Osaka,2023-11-16,18.6,63,9.7,Clear
+Barcelona,2023-11-17,15.7,72,12.9,Partly Cloudy
+Rome,2023-11-17,18.4,67,11.3,Overcast
+Amsterdam,2023-11-17,12.8,78,13.7,Cloudy
+Vienna,2023-11-17,9.6,82,15.1,Foggy
+Stockholm,2023-11-17,6.3,88,17.4,Snow
+Cairo,2023-11-17,22.3,56,8.9,Clear
+Bangkok,2023-11-17,28.9,76,5.4,Humid
+Singapore,2023-11-17,30.7,82,4.1,Tropical
+Seoul,2023-11-17,13.8,68,12.6,Sunny
+Osaka,2023-11-17,19.4,61,8.5,Clear
+Barcelona,2023-11-18,18.9,63,9.8,Sunny
+Rome,2023-11-18,21.6,55,7.4,Clear
+Amsterdam,2023-11-18,9.7,87,19.6,Rainy
+Vienna,2023-11-18,6.8,92,21.4,Storm
+Stockholm,2023-11-18,3.9,96,24.7,Heavy Snow
+Cairo,2023-11-18,25.7,44,5.9,Hot
+Bangkok,2023-11-18,31.8,79,2.8,Sweltering
+Singapore,2023-11-18,33.4,89,1.9,Oppressive
+Seoul,2023-11-18,10.7,77,16.9,Rainy
+Osaka,2023-11-18,16.8,69,11.8,Cloudy
+Barcelona,2023-11-19,16.2,70,11.5,Partly Cloudy
+Rome,2023-11-19,19.8,61,9.2,Sunny
+Amsterdam,2023-11-19,11.4,81,15.3,Overcast
+Vienna,2023-11-19,8.1,86,17.9,Drizzle
+Stockholm,2023-11-19,5.7,90,20.1,Snow
+Cairo,2023-11-19,24.1,50,7.6,Dusty
+Bangkok,2023-11-19,29.3,77,4.6,Humid
+Singapore,2023-11-19,31.8,85,3.4,Tropical
+Seoul,2023-11-19,12.4,72,14.2,Clear
+Osaka,2023-11-19,18.2,65,9.9,Partly Cloudy
+Los Angeles,2023-11-15,21.4,59,8.7,Sunny
+Chicago,2023-11-15,7.9,84,19.3,Windy
+Miami,2023-11-15,26.8,73,12.4,Humid
+Vancouver,2023-11-15,9.2,88,15.7,Rainy
+Toronto,2023-11-15,5.6,92,21.8,Snow
+Mexico City,2023-11-15,18.7,62,10.5,Clear
+São Paulo,2023-11-15,23.9,67,7.8,Overcast
+Buenos Aires,2023-11-15,20.3,71,9.4,Partly Cloudy
+Cape Town,2023-11-15,19.7,65,13.6,Windy
+Johannesburg,2023-11-15,22.1,58,11.9,Sunny
+Los Angeles,2023-11-16,22.8,56,7.9,Clear
+Chicago,2023-11-16,6.4,87,22.7,Blizzard
+Miami,2023-11-16,27.9,75,10.8,Thunderstorm
+Vancouver,2023-11-16,8.7,91,18.4,Storm
+Toronto,2023-11-16,4.2,95,24.6,Heavy Snow
+Mexico City,2023-11-16,19.8,59,9.7,Sunny
+São Paulo,2023-11-16,25.4,64,6.9,Cloudy
+Buenos Aires,2023-11-16,21.7,68,8.8,Clear
+Cape Town,2023-11-16,18.9,69,15.2,Overcast
+Johannesburg,2023-11-16,23.6,55,10.4,Partly Cloudy
+Los Angeles,2023-11-17,20.9,62,9.3,Partly Cloudy
+Chicago,2023-11-17,8.7,81,17.9,Cloudy
+Miami,2023-11-17,25.6,78,13.7,Humid
+Vancouver,2023-11-17,10.5,85,14.2,Drizzle
+Toronto,2023-11-17,6.8,89,18.5,Snow
+Mexico City,2023-11-17,17.4,65,11.8,Overcast
+São Paulo,2023-11-17,22.7,71,8.6,Rainy
+Buenos Aires,2023-11-17,19.8,74,10.7,Cloudy
+Cape Town,2023-11-17,20.4,63,12.9,Sunny
+Johannesburg,2023-11-17,21.3,61,13.4,Clear
+Los Angeles,2023-11-18,23.7,53,6.8,Sunny
+Chicago,2023-11-18,9.3,79,16.4,Overcast
+Miami,2023-11-18,28.4,71,11.9,Hot
+Vancouver,2023-11-18,7.6,94,20.8,Heavy Rain
+Toronto,2023-11-18,3.9,97,26.3,Blizzard
+Mexico City,2023-11-18,20.6,57,8.9,Clear
+São Paulo,2023-11-18,24.8,62,7.3,Sunny
+Buenos Aires,2023-11-18,22.4,65,9.1,Partly Cloudy
+Cape Town,2023-11-18,17.8,72,16.7,Windy
+Johannesburg,2023-11-18,24.9,52,12.6,Hot
+Los Angeles,2023-11-19,21.8,58,8.4,Clear
+Chicago,2023-11-19,7.1,86,20.7,Windy
+Miami,2023-11-19,26.3,76,14.3,Thunderstorm
+Vancouver,2023-11-19,9.8,87,16.9,Cloudy
+Toronto,2023-11-19,5.4,91,19.8,Snow
+Mexico City,2023-11-19,18.9,63,10.2,Overcast
+São Paulo,2023-11-19,23.1,69,8.7,Partly Cloudy
+Buenos Aires,2023-11-19,20.7,72,9.8,Rainy
+Cape Town,2023-11-19,19.2,67,14.5,Cloudy
+Johannesburg,2023-11-19,22.8,59,11.7,Sunny
