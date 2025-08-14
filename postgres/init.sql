@@ -1,4 +1,3 @@
--- postgres/init.sql
 CREATE DATABASE weather;
 
 
